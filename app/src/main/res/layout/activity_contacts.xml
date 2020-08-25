@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_page">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="If you would like to learn more about our product you can access our official website:"
+        android:textColor="#03312E"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="55dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="172.20.21.21:8080"
+        android:textColor="#3AA544"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="CONTACT US BY EMAIL"
+        android:textColor="#03312E"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/sendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="agrobotix_farming@yahoo.com"
+        android:textColor="#3AA544"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="335dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/iv_image_element"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/call_icon" />
+
+
+    <Button
+        android:id="@+id/dialButton"
+        android:text="CALL CUSTOMER CARE"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#3AA544"/>
+
+</RelativeLayout>

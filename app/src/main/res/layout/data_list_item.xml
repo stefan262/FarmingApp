@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/mainText"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/farming_data_text"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/air_humidity_icon"/>
+        <TextView
+            android:id="@+id/humidity_air"
+            android:textColor="#3AA544"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="TextView"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="90dp"
+            android:src="@drawable/soil_humidity_icon"/>
+        <TextView
+            android:id="@+id/humidity_soil"
+            android:textColor="#3AA544"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/luminosity_icon"/>
+        <TextView
+            android:id="@+id/luminosity"
+            android:textColor="#3AA544"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/temperature_icon"/>
+        <TextView
+            android:id="@+id/temperature"
+            android:textColor="#3AA544"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="TextView" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
